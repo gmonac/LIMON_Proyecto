@@ -16,20 +16,23 @@
 </head>
 
 <body>
-    <nav id="Barra_Indice">
+
+    <header>
+        <nav id="Barra_Indice">
         <ul class="indice">
-            <img src="./IMAGENES/logo.png" width="50" height="50" alt="Logo de Limon Fitness">
+            <img src="./IMAGENES/LOGO2.png" width="50" height="50" alt="Logo de Limon Fitness">
             <li><a href="#">Inicio</a></li>
             <li><a href="#Servicios">Planes</a></li>
             <li><a href="#Contacto">Contacto</a></li>
             <li class="iniciar_sesion"><a href="#">Iniciar Sesión</a></li>
         </ul>
-    </nav>
-
-    <header>
-        <h1>CLASES GRUPALES TLATELOLCO</h1>
-        <p class="bienvenida">¡Bienvenido a nuestra página de clases grupales en Tlatelolco! Aquí encontrarás información sobre<br>nuestras clases, horarios y cómo unirte a nuestra comunidad.<br><strong>¡Explora y descubre todo lo que tenemos para ofrecer!</strong></p>
+        </nav>
+        <h1>CLASES <span class = "Verde">GRUPALES</span> TLATELOLCO</h1>
         <p class="eslogan"><b>¡Únete a nuestra comunidad de fitness hoy mismo!</b></p>
+        <div class="bienvenida">
+            <a id = "agendar" href="#">Agendar cita</a>
+            <a id = "horarios" href="#">Ver Horarios</a>
+        </div>
     </header>
 
     <main>
@@ -75,22 +78,22 @@
             <div class="Servicios_Multiples">
                 <div class="servicio_1">
                     <h3>Clases Grupales</h3>
-                    <p>Ofrecemos clases grupales de fitness en Tlatelolco, diseñadas para todos los niveles de condición física. Nuestras clases son divertidas, motivadoras y efectivas.</p>
+                    <p>Clases grupales de fitness en Tlatelolco, diseñadas para todos los niveles de condición física.</p>
                 </div>
 
                 <div class="servicio_2">
                     <h3>Entrenamiento Personalizado</h3>
-                    <p>Si prefieres un enfoque más individualizado, ofrecemos entrenamiento personalizado adaptado a tus necesidades y objetivos específicos.</p>
+                    <p>Entrenamiento personalizado adaptado a tus necesidades y objetivos específicos.</p>
                 </div>
 
                 <div class="servicio_3">
                     <h3>Asesoramiento Nutricional</h3>
-                    <p>Además de nuestras clases, brindamos asesoramiento nutricional para ayudarte a alcanzar tus metas de salud y bienestar.</p>
+                    <p>Asesoramiento nutricional para ayudarte a alcanzar tus metas de salud y bienestar.</p>
                 </div>
 
                 <div class="servicio_4">
                     <h3>Zumba</h3>
-                    <p>Clases de Zumba para todos los niveles, combinando música y movimiento para una experiencia divertida y efectiva.</p>
+                    <p>Clases de Zumba para todos los niveles</p>
                 </div>
             </div>
 
@@ -108,7 +111,7 @@
             <input type="email" class="box" placeholder="Ingresa tu correo">
             <input type="password" class="box" placeholder="Ingresa tu contraseña">
 
-            <a href="#">Olvidaste tu contraseña</a>
+            <div class="Recuperacion"><p>¿Olvidaste tu contraseña?</p><a href="#">Haz click aquí</a></div>
 
             <input type="submit" value="login" class="submit">
             <input type="submit" value="register" class="submit">
